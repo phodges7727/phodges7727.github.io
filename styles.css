@@ -23,17 +23,12 @@ a {
 
 .name {
   letter-spacing: 8px;
+  background-color: red;
+  color: orchid;
 }
 
-.m {
-  height: 40vh;
-  width: 50vw;
-  border: 3px dotted deeppink;
-  border-radius: 999px;
-}
-
-.m:hover {
-  border: 100px solid black;
-  height: 500px;
-  width: 500px;
+.name:hover {
+  color: yellow;
+  background-color: blue;
+  cursor: pointer;
 }
