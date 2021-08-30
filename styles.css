@@ -5,6 +5,10 @@ body {
   font-size: 50px;
 }
 
+h1 {
+  color: #0cf7f0;
+}
+
 a {
   color: #092935;
 }
