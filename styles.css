@@ -4,11 +4,11 @@ body {
   color: #092935;
   font-size: 50px;
 }
- 
+
 a {
   color: #092935;
 }
- 
+
 .logo .uno, .dos, .tres {
   background: #C61561;
 }
@@ -20,7 +20,20 @@ a {
 .logo::before {
   background: #F9F2DB;
 }
- 
+
 .name {
   letter-spacing: 8px;
+}
+
+.m {
+  height: 40vh;
+  width: 50vw;
+  border: 3px dotted deeppink;
+  border-radius: 999px;
+}
+
+.m:hover {
+  border: 100px solid black;
+  height: 500px;
+  width: 500px;
 }
