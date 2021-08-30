@@ -1,1 +1,25 @@
+body {
+  background: #F9F2DB;
+  color: #092935;
+  font-size: 50px;
+}
+ 
+a {
+  color: #092935;
+}
+ 
+.logo .uno, .dos, .tres {
+  background: #C61561;
+}
 
+.logo .dos {
+  box-shadow: 0 0 20px #F9F2DB;
+}
+
+.logo::before {
+  background: #F9F2DB;
+}
+ 
+.name {
+  letter-spacing: 8px;
+}
